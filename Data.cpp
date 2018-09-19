@@ -9,4 +9,16 @@ Data::Data(int mHeroCount, float mSuccessRate) {
 	successRate = mSuccessRate;
 }
 
-void Data:
+void Data::setHeroCount(int mHeroCount){
+	heroCount = mHeroCount;
+}
+
+int Data::getHeroCount(){
+	return heroCount;
+}
+void Data::setSuccessRate(float mSuccessRate){
+	successRate = mSuccessRate;
+}
+float Data::getSuccessRate(){
+	return successRate;
+}

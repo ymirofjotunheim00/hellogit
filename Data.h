@@ -1,18 +1,19 @@
 //Data.h
 
+#ifndef DATA.H
+#define DATA.H
+
 class Data {
 	
 	private:
 		int heroCount;
 		float successRate;
 	public:
-		Data(){
-
-			heroCount = 0;
-			successRate = 0.0;
-		}
+	Data(int mHeroCount, float mSuccessRate);
 	void setHeroCount(int mHeroCount);
 	int getHeroCount();
 	void setSuccessRate(float mSuccessRate);
 	float getSuccessRate();
 };
+
+#endif

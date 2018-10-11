@@ -1,7 +1,7 @@
 #include "Data.h"
 
-int heroCount = 0;
-float successRate = 0.0;
+int heroCount;
+float successRate;
 
 
 Data::Data(int mHeroCount, float mSuccessRate) {

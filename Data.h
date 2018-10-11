@@ -6,8 +6,8 @@
 class Data {
 	
 	private:
-		int heroCount;
-		float successRate;
+		int heroCount = 0;
+		float successRate = 0.0;
 	public:
 	Data(int mHeroCount, float mSuccessRate);
 	void setHeroCount(int mHeroCount);
